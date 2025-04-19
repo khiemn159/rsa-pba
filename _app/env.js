@@ -1,1 +1,0 @@
-export const env={"PUBLIC_CONNECT_BACKEND":"1","PUBLIC_BACKEND_URL":"http://localhost:5000"}
