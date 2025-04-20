@@ -1,0 +1,1 @@
+const d="/rsa-pba";async function o(a){const e=new TextEncoder().encode(a),t=await window.crypto.subtle.digest("SHA-256",e);return Array.from(new Uint8Array(t)).map(n=>n.toString(16).padStart(2,"0")).join("")}async function i(){return(await(await window.cardano.eternl.enable()).getUsedAddresses())[0].slice(2,58)}export{d as B,o as d,i as g};
